@@ -1,0 +1,87 @@
+.contact__breadcrumb {
+    height: 12rem;
+    border: wpx solid red;
+    background-image: url("../images/dummybanner2.jpg");
+    margin-top: -43px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__us__heading {
+    color: var(--pure);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.contact__mainwrapper {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* navbar dropdown */
+.ddl{
+   position: relative;
+   overflow: visible;
+}
+.nav__dropdown{
+    position: absolute;
+    background-color: var(--pure);
+    top: 2rem;
+    left: 0;
+    overflow: visible;
+}
+#navbar{
+    overflow: visible;
+}
+#submit_btn::before {
+    content: "Send Message";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--darkV);
+    color: var(--pure);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+#submit_btn{
+    position: relative;
+}
+#submit_btn:hover::before {
+    display: flex;
+    width: 100%;
+    visibility: visible;
+}
+.contact_email_wrapper {
+    padding: 1rem;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 255, 255) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 255, 255) 0px 0px 0px 15px;
+}
+
+.ddddl{
+    position: absolute;
+    top: 12.4rem;
+    height: 10rem;
+    left: 23rem;
+    padding: 1rem;
+    opacity: 0;
+    transition: all 0.5s;
+    border: 2px solid var(--highlight);
+    height: fit-content;
+    z-index: 999999 !important;
+}
+.ddl{
+    cursor: pointer;
+}
+#dddl_close{
+    position: absolute;
+    right:1rem;
+    top: 1rem;
+    cursor: pointer;
+}

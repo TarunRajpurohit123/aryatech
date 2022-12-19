@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Arya Tech Solutions</title>
+    <!-- filter gallary cdns -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="/css/groupsilder1.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+
+    <!-- topbars -->
+    <section class="aryatech__topbar">
+        <!-- subheader -->
+        <div class="subheader">
+            <!-- container -->
+            <div class="aryatech__topbar__container">
+
+                <!-- logo branding -->
+                <div class="branding">
+                    <img src="./images/dummylogo.png" alt="logo">
+                </div>
+
+                <div style="display: flex;" class="subheader__contact__wrapper">
+                    <!-- contact section -->
+                    <div class="contact__section">
+                        <!-- phone number section -->
+                        <div class="subheader__cont" style="display: flex;">
+                            <span class="material-symbols-outlined" style="color:var(--pure);font-size:2.6rem;">
+                                phone_in_talk
+                            </span>
+                            <div style="margin-left:1rem">
+                                <span style="color:var(--highlight);margin-left:3px;">Call us 9:00am - 6:00pm</span>
+                                <h2><a href="tel:+919879569214"
+                                        style="color:var(--pure);text-decoration:none;font-size: 1.2rem;">+91-9879569214</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- email section -->
+                    <div class="contact__section">
+                        <!-- phone number section -->
+                        <div class="subheader__cont" style="display: flex;">
+                            <span class="material-symbols-outlined" style="color:var(--pure);font-size:2.6rem;">
+                                mail
+                            </span>
+                            <div style="margin-left:1rem">
+                                <span style="color:var(--highlight);margin-left:3px">E-mail us</span>
+                                <h2><a href="mailto:harshpatel@aryatech.co"
+                                        style="color:var(--pure);text-decoration:none;font-size: 1.2rem;">harshpatel@aryatech.co</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- timing section -->
+                    <div class="contact__section">
+                        <!-- phone number section -->
+                        <div class="subheader__cont" style="display: flex;">
+                            <span class="material-symbols-outlined" style="color:var(--pure);font-size:2.6rem;">
+                                schedule
+                            </span>
+                            <div style="margin-left:1rem">
+                                <span style="color:var(--highlight);margin-left:3px">Monday to Friday</span>
+                                <h2><a style="color:var(--pure);text-decoration:none;font-size: 1.2rem;">9:00am - 6:00pm
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- navbar -->
+        <nav id="navbar" style="width:90%;">
+            <!-- container -->
+            <div class="aryatech__topbar__container2">
+                <ul class="navbar__navlinks" style="list-style-type: none;">
+                    <li>
+                        <span class="material-symbols-outlined" style="color:var(--darkV)">
+                            menu
+                        </span>
+                    </li>
+                    <li><a href="/" class="nav__link">Home</a></li>
+                    <li><a href="about.html" class="nav__link">About</a></li>
+                    <li style="display: flex;align-items:center" class="ddl" id="dddlll">Services <span
+                            class="material-symbols-outlined" style="color:var(--highlight)">
+                            arrow_drop_down
+                        </span>
+                    </li>
+
+                    <li><a href="contact.html" class="nav__link">Contact Us</a></li>
+                </ul>
+                <a href="contact.html" class="getfreequote" style="text-transform: capitalize;">get free quate</a>
+            </div>
+        </nav>
+        <!-- dropdown-services -->
+        <ul style="background-color: var(--pure);" class="ddddl" id="dldldl">
+            <span class="material-symbols-outlined" style="color:var(--pure);background: var(--highlight);"
+                id="dddl_close">
+                close
+            </span>
+            <li><a href="electropolish.html">Electropolishing</a></li>
+            <li style="margin-top: 1rem;"><a href="Epoxy.html">epoxy high build paint...</a></li>
+            <li style="margin-top: 1rem;"><a href="pickling.html">Pickling & Passivation Solutions</a></li>
+        </ul>
+    </section>
+    <!-- topbars -->
+
+    <!-- mobile navbar -->
+    <div class="mobile__navbar">
+        <span class="material-symbols-outlined" style="color:var(--pure)" id="hamburgur_btn">
+            menu
+        </span>
+        <ul class="mobile__nav-links" id="ullinks">
+            <div style="    position: absolute;
+            top: 1rem;
+            left: 1rem;">
+                <span class="material-symbols-outlined" style="color:var(--pure)" id="close_btn">
+                    close
+                </span>
+            </div>
+            <img src="./images/dummylogo.png" alt="mobilelogo">
+            <li><a href="/" style="color:var(--pure)">Home</a></li>
+            <li><a href="about.html" style="color:var(--pure)">About Us</a></li>
+            <li>
+                <div class="relative inline-block text-left">
+                    <div>
+                        <button type="button" onclick="clickHandle()"
+                            class="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"
+                            id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            Services
+                            <!-- Heroicon name: mini/chevron-down -->
+                            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!--
+                      Dropdown menu, show/hide based on menu state.
+                  
+                      Entering: "transition ease-out duration-100"
+                        From: "transform opacity-0 scale-95"
+                        To: "transform opacity-100 scale-100"
+                      Leaving: "transition ease-in duration-75"
+                        From: "transform opacity-100 scale-100"
+                        To: "transform opacity-0 scale-95"
+                    -->
+                    <div style="z-index:9999999999999999999999999;display: none;"
+                        class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                        role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" id="dl">
+                        <div class="py-1" role="none">
+                            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+                            <a href="electropolish.html" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem"
+                                tabindex="-1" id="menu-item-0">Electropolishing</a>
+                            <a href="Epoxy.html" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem"
+                                tabindex="-1" id="menu-item-1">epoxy high build paint...</a>
+                            <a href="pickling.html" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem"
+                                tabindex="-1" id="menu-item-2">Pickling & Passivation Solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="contact.html" style="color:var(--pure)">Contact Us</a></li>
+        </ul>
+    </div>
+    <!-- mobile navbar-end -->
+
+    <div class="home__slider" style="height: 90vh;">
+        <div id="default-carousel" class="relative md: h-10" data-carousel="static"
+            style="height: 90vh !important;z-index: 99;">
+            <!-- Carousel wrapper -->
+            <div class="relative  overflow-hidden h-96 md:h-96" style="height:100%">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item style="height:100%;z-index: -99999;">
+                    <span
+                        class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First
+                        Slide</span>
+                    <img src="./images/dummybanner1.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."
+                        style="height:100%">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item style="height:100%;z-index: -99999;">
+                    <img src="./images/dummybanner2.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."
+                        style="height: 100%;">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item style="height:100%;z-index: -99999;">
+                    <img src="./images/dummybanner1.jpg"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."
+                        style="height: 100%;">
+                </div>
+            </div>
+
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <!-- responsive slick slider -->
+    <div class="your-class slick_s" style="margin: 3rem 0;">
+        <div>
+            <img src="./images/elctropolishing/electropolish.jpg" alt="elctropolishing" style="height:15rem;width:100%">
+            <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">ElectroPolishing <br></h1>
+        </div>
+        <div>
+            <img src="./images/Pictures of Epoxy Flooring/Automation 26- ATS Epoxy.jpg" alt="epoxy images"
+                style="height:15rem;width:100%">
+            <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">Epoxy & PU Flooring and <br> Epoxy HighBuild Paint</h1>
+
+            </div>
+        <div><img src="./images/pickling/After P3.JPG" alt="pickling" style="height:15rem;width:100%">
+            <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">Pickling and Passivation <br> Solutions</h1>
+        </div>
+        <div><img src="./images/elctropolishing/electropolish.jpg" alt="elctropolishing"
+                style="height:15rem;width:100%">
+                <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">ElectroPolishing</h1>
+            </div>
+        <div><img src="./images/Pictures of Epoxy Flooring/Automation 26- ATS Epoxy.jpg" alt="epoxy images"
+                style="height:15rem;width:100%">
+                <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">Epoxy & PU Flooring and Epoxy HighBuild Paint</h1>
+            </div>
+        <div><img src="./images/pickling/After P3.JPG" alt="pickling" style="height:15rem;width:100%">
+            <h1 class="text-center py-1" style="background:var(--dark);color:var(--pure);height: 56px;">Pickling & Passivation Solutions</h1>
+        </div>
+    </div>
+
+    <!-- company intro -->
+    <section class="company__intro" style="margin-top: 8rem;">
+        <div class="company__intro__text leftintro">
+            <div>
+                <h1 data-aos="fade-right" style="font-size: 2rem;">Welcome to <b class="gradiend_text">Arya Tech
+                        Solutions</b></h1>
+                <p data-aos="fade-right" class="arya__text" style="margin-top: 1rem;">
+                    We have diversified in Epoxy and PU Flooring in 2015 with world class flooring solutions
+                    which has given us upper hand in providing surface enhancement of Flooring of Indian
+                    Industries.
+                </p>
+                <div class="arrow_link_wrap">
+                    <a href="" data-aos="fade-right">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span><span>Pickling and Passivation Chemical ( SteelMATT) and Job work at Client Site</span>
+                    </a><br>
+                    <a href="" data-aos="fade-right">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span><span>ElectroPolishing at Client Site of Vessels, Tanks etc.</span>
+                    </a><br>
+                    <a href="" data-aos="fade-right">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span><span>Epoxy &amp; PU Flooring:</span>
+                    </a><br>
+                    <a href="" data-aos="fade-right">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span><span>Epoxy High Build Paint (EHB Paint) on Floor – Outdoor and Indoor.</span>
+                    </a><br>
+                </div>
+                <a href="#" class="btn__first btn__first-modify" data-aos="fade-right">Know More</a>
+            </div>
+        </div>
+        <div class="company__image__right" data-aos="fade-left">
+            <img src="./images/elctropolishing/electropolish.jpg" alt="companyimage">
+        </div>
+    </section>
+    <!-- company intro end -->
+
+    <!-- what we serving -->
+    <section class="whatweserving" style="margin-top: 5rem;margin-bottom:2rem">
+        <h1 data-aos="fade-right" style="text-align: center;font-size: 2rem;">What We<b class="gradiend_text">
+                Serving</b></h1>
+        <div class="services_Grid">
+
+            <!-- service 1 -->
+            <div class="servicebox1" data-aos="zoom-in">
+                <img src="./images/elctropolishing/Before.jpg" class="s_imag" alt="">
+                <div class="service__text-with-icon">
+                    <figure>
+                        <!-- <img src="./images/dummybanner1.jpg" style="width:5rem;height:5rem;border-radius:50%"> -->
+                    </figure>
+                    <h1 style="text-align: center;margin-top:1rem;font-size: 2rem;">ElectroPolishing</h1>
+                    <p class="arya__text" style="margin-top: 1rem;text-align: center;padding:0.5rem">We offer high class
+                        Electropolishing with electrolyte developed as per ASTM 912 –
+                        Standards for Electropolishing of Stainless Steel. We have state of art inhouse
+                        facility for electropolishing of components, Pipes &amp; Tubes ( Inside &amp; Outside) up to
+                        5mm ID).</p>
+                </div>
+            </div>
+
+            <!-- service 2 -->
+            <div class="servicebox1" data-aos="zoom-in">
+                <img src="./images/Pictures of Epoxy Flooring/Eng 1.jpg" class="s_imag" alt="">
+                <div class="service__text-with-icon">
+                    <figure>
+                        <!-- <img src="./images/dummybanner1.jpg" style="width:5rem;height:5rem;border-radius:50%"> -->
+                    </figure>
+                    <h1 style="text-align: center;margin-top:1rem;font-size: 2rem;">Epoxy & PU Flooring and Epoxy
+                        HighBuild Paint</h1>
+                    <p class="arya__text" style="margin-top: 1rem;text-align: center;padding:0.5rem">We offer high class
+                        Electropolishing with electrolyte developed as per ASTM 912 –
+                        Standards for Electropolishing of Stainless Steel. We have state of art inhouse
+                        facility for electropolishing of components, Pipes &amp; Tubes ( Inside &amp; Outside) up to
+                        5mm ID).</p>
+                </div>
+            </div>
+
+            <!-- service 3 -->
+            <div class="servicebox1" data-aos="zoom-in">
+                <img src="./images/pickling/Before P2.JPG" class="s_imag" alt="">
+                <div class="service__text-with-icon">
+                    <figure>
+                        <!-- <img src="./images/dummybanner1.jpg" style="width:5rem;height:5rem;border-radius:50%"> -->
+                    </figure>
+                    <h1 style="text-align: center;margin-top:1rem;font-size: 2rem;">Pickling and Passivation Solutions</h1>
+                    <p class="arya__text" style="margin-top: 1rem;text-align: center;padding:0.5rem">We offer high class
+                        Electropolishing with electrolyte developed as per ASTM 912 –
+                        Standards for Electropolishing of Stainless Steel. We have state of art inhouse
+                        facility for electropolishing of components, Pipes &amp; Tubes ( Inside &amp; Outside) up to
+                        5mm ID).</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- what we serving end -->
+
+    <!-- projects for inspirations -->
+    <div class="container">
+        <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display: flex;justify-content: center;">
+                <h1 data-aos="fade-down" style="text-align: center;font-size: 2rem;">Gallery
+                </h1>
+
+            </div>
+            <hr style="margin-top: 1rem;" />
+            <div style="width: 90%;margin:auto;text-align: center;" class="filter_navbar">
+                <button data-aos="fade-right" class="btn btn-default filter-button" data-filter="all">All</button>
+                <button data-aos="fade-left" class="btn btn-default filter-button"
+                    data-filter="hdpe">ElectroPolishing</button>
+                <button data-aos="fade-right" class="btn btn-default filter-button" data-filter="Epoxyflooring">Epoxy
+                    Flooring </button>
+                <button data-aos="fade-left" class="btn btn-default filter-button" data-filter="PUflooring">PU
+                    Flooring</button>
+                <button data-aos="fade-right" class="btn btn-default filter-button" data-filter="highbuildpaint">Epoxy
+                    High Bulid
+                    Paint</button>
+                <button data-aos="fade-left" class="btn btn-default filter-button" data-filter="spray">Pickling and
+                    Passivation
+                    Solution</button>
+            </div>
+            <br />
+
+
+
+            <div data-aos="fade-up" style="display: flex;flex-wrap:wrap;justify-content:start;width:90%;margin:auto">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/After.JPG" class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/After1.JPG" class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/DSC03019.JPG" class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/DSC05910.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/DSC02613.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/DSC02609.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/Before.jpg" class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/corrosion free.jpg" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="margin-left:1rem">
+                    <img src="./images/elctropolishing/mixer.jpg" class="img-responsive" width="365" height="365">
+                </div>
+
+                <!-- Epoxy Flooring  -->
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/API 33 - ATS Epoxy.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/API 34 - ATS Epoxy.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/Epoxy  ATS 003.jpg" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/ATS - Before.JPG" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/ATS - Food 1 After  - Epoxy.jpg"
+                        class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/ATS Pharma & API -2 Album 2017-18 - Epoxy.jpg"
+                        class="img-responsive" width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/ATS- After Food Epoxy.JPG" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/Automation 26- ATS Epoxy.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter Epoxyflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy Flooring/Automation 5- ATS Epoxy.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <!-- pu flooring -->
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU  - ATS Cold Storage 1.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU - ATS Cold Storage 2.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU - ATS Eng Walk Way.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU - ATS Engineering.jpg" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU - Engineering.jpg" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter PUflooring"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of PU FLooring/PU Eng Unit 1.jpg" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+                <!-- epoxy high build paint -->
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter highbuildpaint"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy High Build Paint/HBE Paint -1.JPG" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter highbuildpaint"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy High Build Paint/HBE Paint -2.JPG" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter highbuildpaint"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy High Build Paint/HBE paint -3.JPG" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter highbuildpaint"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy High Build Paint/HBE Paint-3.JPG" class="img-responsive"
+                        width="365" height="365">
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter highbuildpaint"
+                    style="margin-left:1rem">
+                    <img src="./images/Pictures of Epoxy High Build Paint/HBEP Prep on Paver Bricks  Crack Filling.jpg"
+                        class="img-responsive" width="365" height="365">
+                </div>
+
+                <!-- pickling -->
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/After P3.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/Before P2.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/Photo 10 After.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/JD Pic 1.JPG" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/JD Pic 4.gif" class="img-responsive" width="365" height="365">
+                </div>
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray" style="margin-left:1rem">
+                    <img src="./images/pickling/stainless-steel-tank-big.jpg" class="img-responsive" width="365"
+                        height="365">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- black patti -->
+    <section id="black_divider" data-aos="fade-up">
+        <a href="mailto:harshpatel@aryatech.co">
+            <span class="material-symbols-outlined" style="font-size: 2rem;color:var(--pure)">
+                mail
+            </span>
+            <span style="font-size: 2rem;color:var(--pure)">harshpatel@aryatech.co</span>
+        </a>
+        <a href="tel:+919879569214" style="margin-left: 2rem; display:inline-block;">
+            <span class="material-symbols-outlined" style="font-size: 2rem;color:var(--pure)">
+                phone
+            </span>
+            <span style="font-size: 2rem;color:var(--pure)">+91-9879569214</span>
+        </a>
+    </section>
+    <!-- black patti end-->
+    <!-- footer -->
+    <footer data-aos="fade-left" class="text-gray-600 body-font">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img src="./images//logo2-1.png" alt="">
+                </a>
+                <b style="margin-top:1rem !important;display:inline-block;">About Us</b>
+                <p class="mt-2 text-sm text-gray-500">Many of our SELC registered employees are requested as main
+                    preferred temporary staff when a service.</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="/">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="electropolish.html">Services</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="pickling.html">Pickling & Passivation
+                                Solutions</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="electropolish.html">Electropolishing</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="Epoxy.html">epoxy high build paint</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800" href="contact.html">Contact Us</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Address</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800"
+                                href="https://www.google.com/maps/search/701%2F702+Golden+Triangle,Stadium+Road,Ahemdabad+380014,Gujrat,India./@23.0128244,72.5493944,13z/data=!3m1!4b1">701/702
+                                Golden Triangle,Stadium Road,Ahemdabad
+                                380014,Gujrat,India.</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-2/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Subscribe Today</h2>
+                    <p class="mt-2 text-sm text-gray-500">Many of our SELC registered employees are requested as main
+                    </p>
+                    <form style="display: flex;margin-top:1rem;">
+                        <input type="text" class="
+                      form-control
+                      block
+                      w-full
+                      px-3
+                      py-1.5
+                      text-base
+                      font-normal
+                      text-gray-700
+                      bg-white bg-clip-padding
+                      border border-solid border-gray-300
+                      rounded
+                      transition
+                      ease-in-out
+                      m-0
+                      focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                    " id="exampleFormControlInput1" placeholder="Example label" />
+                        <button type="button"
+                            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© ATS 2020. All rights reserved Made with 🖤
+                    <a href="https://www.grabthesite.in/" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                        target="_blank">GRABTHESITE</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/responsive.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        }); -->
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.your-class').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            autoplay: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+    <script>
+        function clickHandle() {
+            const dl = document.getElementById("dl");
+            if (dl.style.display == "none") {
+                dl.style.display = "block";
+            } else {
+                dl.style.display = "none";
+            }
+
+        }
+    </script>
+</body>
+
+</html>

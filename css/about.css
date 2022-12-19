@@ -1,0 +1,212 @@
+.contact__breadcrumb {
+    height: 12rem;
+    border: wpx solid red;
+    background-image: url("../images/dummybanner2.jpg");
+    margin-top: -43px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__us__heading {
+    color: var(--pure);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+/* navbar dropdown */
+.ddl{
+   position: relative;
+   overflow: visible;
+}
+.nav__dropdown{
+    position: absolute;
+    background-color: var(--pure);
+    top: 2rem;
+    left: 0;
+    overflow: visible;
+}
+#navbar{
+    overflow: visible;
+}
+
+#about__start{
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+#about__start .who_we_are{
+    text-align: center;
+    border:1px solid grey;
+    width: 32%;
+    padding: 2rem;
+}
+.arya__text{
+    margin-top: 1rem;
+}
+.who_we_are::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: var(--highlight);
+    z-index: -1;
+    transition: all 0.4s;
+} 
+.who_we_are:hover::before {
+    height: 100%;
+    background: var(--highlight);
+    z-index: -1;
+} 
+.who_we_are:hover{
+    border: none !important;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset, rgb(255, 255, 255) -10px -10px 0px -3px, blue -10px -10px;
+}
+.who_we_are{
+    position: relative;
+}
+.who_we_are:hover.who_we_are h1 {
+    color: white;
+}
+.who_we_are:hover.who_we_are p {
+    color: white;
+}
+.who_we_are:hover.who_we_are span {
+    color: white;
+}
+.company__image__right2{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(0, 0, 0) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, blue 20px -20px;
+}
+.company__image__righ2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn__first-modify::before{
+    content:"Read More" !important;
+}
+
+.about__intro{
+  margin-top: 5rem;
+}
+
+.remove_style_shadow{
+    box-shadow: none;
+}
+
+.flex_prop_remove{
+    align-items: start;
+}
+
+@media only screen and (max-width: 1000px) {
+   .about__intro{
+    flex-direction: column;
+   }
+   .company__image__right2{
+    width: 100%;
+   }
+   .company__intro__text {
+    width: 100%;
+    margin-top: 1rem;
+}
+}
+@media only screen and (max-width: 870px) {
+    #about__start{
+        flex-direction: column;
+    }
+    #about__start .who_we_are{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .group_slider1{
+        display: none;
+    }    
+ }
+ @media only screen and (min-width: 870px) {
+    .divine{
+        display: none;
+    }  
+ }
+ .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .group_slider{
+    margin-bottom: 5rem;
+  }
+  .mySwiper{
+    width: 90%;
+    margin: auto;
+  }
+  .swiper-slide{
+    display: flex;
+    flex-direction: column !important;
+    background-color: var(--dark);
+    color:var(--pure);
+  }
+  .gsh_1{
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem !important;
+  }
+  .container{
+    margin: auto !important;
+  }
+  .divine{
+    width: 90%;
+    margin: 5rem auto;
+  }
+  .gsh_mobile{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--pure);
+  }
+  .ticker{
+    position: relative;
+  }
+  
